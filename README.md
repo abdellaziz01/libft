@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by abdait-o.*
+*This project has been created as part of the 42 curriculum by <abdait-o>.*
 
 # Libft
 
@@ -35,7 +35,7 @@ To use Libft in a C project, include the header file in your source code:
 ```
 Compile your program together with the library:
 ```bash
-cc main.c libft.a -I. -o program
+cc main.c libft.a -o program
 ```
 Then execute it:
 ```bash
@@ -130,15 +130,12 @@ Header file: libft.h
 ### References
 
 The following resources were used to study C programming and understand the standard library functions reimplemented in this project:
-.Linux man-pages
-.The 42 Libft project subject
-.youtube.com
+- Linux man-pages (`man 3 strlen`, `man 3 memcpy`, etc.)
+- The 42 Libft project subject
+- Neso Academy: <https://www.youtube.com/@nesoacademy>
 
 ###  AI Usage
 
 When I encounter a problem in C or need to understand a new concept, I first ask my peers for help and try to develop a general understanding of the problem myself. After that, I may look for information online or use AI tools to get some guidance and explore possible solutions.
 
 I do not rely entirely on AI, as understanding the code and solving problems independently are important parts of my learning process. After completing my code, and once I have already sought help from my peers, I may also use AI to review it, identify potential errors, and check whether anything could be improved. My main goal is to learn, understand my mistakes, and improve my programming skills rather than simply rely on AI-generated solutions.
-
-
-
