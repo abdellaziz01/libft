@@ -31,11 +31,3 @@ char	*ft_strdup(const char *s)
 	p[i] = '\0';
 	return (p);
 }
-/*#include<stdio.h>
-int	main(void)
-{
-	char *s = "the lord of the rings";
-	char *res = ft_strdup(s);
-	printf("%s",res);
-	free(res);
-}*/

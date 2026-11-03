@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 14:03:28 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:16:16 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:30:20 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	p[i] = '\0';
 	return (p);
 }
-
-/*#include <stdio.h>
-
-int	main(void)
-{
-  char *s1 = "abdellaziz";
-  char *s2 = "aitouane";
-  char *res = ft_strjoin(s1, s2);
-  printf("%s", res);
-} */

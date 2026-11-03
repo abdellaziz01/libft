@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 13:08:38 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:17:46 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:09:32 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	printf("%c",ft_toupper(115));
-	return (0);
-}*/

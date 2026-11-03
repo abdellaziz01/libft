@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 12:42:03 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:15:23 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:05:07 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	const unsigned char	*p2;
 	size_t				i;
 
+	if (s1 == s2)
+		return (0);
 	p1 = (const unsigned char *)s1;
 	p2 = (const unsigned char *)s2;
 	i = 0;
@@ -29,16 +31,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*#include <stdio.h>
-int	main(void)
-{
-	char	*p1;
-	char	*p2;
-	int		y;
-
-	p1 = "abdellazizllll";
-	p2 = "abdellazizL";
-	y = ft_memcmp(p1, p2, 10);
-	printf("%d", y);
-	return (0);
-}*/

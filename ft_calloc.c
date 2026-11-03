@@ -26,26 +26,3 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	ft_bzero(p, nmemb * size);
 	return (p);
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	size_t	huge;
-	void	*overflow_ptr;
-
-	huge = SIZE_MAX;
-	overflow_ptr = ft_calloc(huge, huge);
-	if (overflow_ptr == NULL)
-	{
-		printf("Overflow detected successfully! Returned NULL as expected.\n");
-	}
-	else
-	{
-		printf("Overflow NOT detected (Something is wrong).\n");
-		free(overflow_ptr);
-	}
-	return (0);
-}
-*/

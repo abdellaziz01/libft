@@ -13,7 +13,7 @@ SRCS =  ft_isalpha.c \
 		ft_memmove.c \
 		ft_strlcpy.c \
 		ft_strlcat.c \
-		ft_toupper.c\
+		ft_toupper.c \
 		ft_tolower.c \
 		ft_strchr.c \
 		ft_strrchr.c \
@@ -46,15 +46,14 @@ SRCS =  ft_isalpha.c \
 		ft_lstmap.c 
 OBJS = $(SRCS:.c=.o) 
 all: $(NAME)
-$(NAME):$(OBJS) 
+$(NAME): $(OBJS) 
 	ar rcs $(NAME) $(OBJS) 
 %.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 clean:
-	rm -f *.o
+	rm -f $(OBJS)
 fclean:clean
-	rm -rf $(NAME)
+	rm -f $(NAME)
 re:fclean all
-.PHONY: all fclean clean re
-
+.PHONY: all fclean clean re  
  

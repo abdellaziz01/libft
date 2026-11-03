@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 12:38:35 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:14:14 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 09:48:46 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,39 +45,5 @@ int	ft_atoi(const char *nptr)
 			return (buffer_return(signe));
 		i++;
 	}
-	return ((int)(signe * res));
+	return ((int)signe * res);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-
-// 	printf("%d\n", atoi("-9223372036854775807"));
-// 	printf("%d\n", ft_atoi("-9223372036854775807"));
-// }
-
-// int	ft_atoi(const char *nptr)
-// {
-// 	int	res;
-// 	int	signe;
-// 	int	i;
-
-// 	i = 0;
-// 	signe = 1;
-// 	res = 0;
-// 	while (nptr[i] == 32 || (nptr[i] >= 9 && nptr[i] <= 13))
-// 		i++;
-// 	if (nptr[i] == '-' || nptr[i] == '+')
-// 	{
-// 		if (nptr[i] == '-')
-// 			signe = -1;
-// 		i++;
-// 	}
-// 	while (nptr[i] >= '0' && nptr[i] <= '9')
-// 	{
-// 		res = res * 10 + (nptr[i] - '0');
-// 		i++;
-// 	}
-// 	return (signe * res);
-// }

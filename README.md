@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <abdait-o>.*
+*This project has been created as part of the 42 curriculum by abdait-o.*
 
 # Libft
 
@@ -132,6 +132,7 @@ Header file: libft.h
 The following resources were used to study C programming and understand the standard library functions reimplemented in this project:
 - Linux man-pages (`man 3 strlen`, `man 3 memcpy`, etc.)
 - The 42 Libft project subject
+- geeksforgeeks: <https://www.geeksforgeeks.org>
 - Neso Academy: <https://www.youtube.com/@nesoacademy>
 
 ###  AI Usage

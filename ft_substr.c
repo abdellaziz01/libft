@@ -53,14 +53,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	*(p + i) = '\0';
 	return (p);
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char *str = "the lord of the rings";
-	char *res = ft_substr(str , 6, 3);
-	printf("%s",res);
-	free(res);
-} */

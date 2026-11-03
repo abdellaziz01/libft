@@ -29,27 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-
-// #include <stdio.h>
-
-// int	main(void)
-// {
-// 	char	*str;
-// 	char	*res;
-
-// 	str = "abdellaziz";
-// 	res = ft_memchr(str,  'z' , 10);
-// 	printf("%s",res);
-// 	return (0);
-
-// 	int	str[] = {0,1,2,3,40000,5};
-// 	int *arr = ft_memchr(str , 40000 , 6 * sizeof(int));
-
-// 	int i = 0;
-// 	while(i < 2)
-// 	{
-// 		printf("%d\n",arr[i]);
-// 		i++;
-// 	}
-// 	return (0);
-// }

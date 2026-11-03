@@ -16,19 +16,3 @@ void	ft_putchar_fd(char c, int fd)
 {
 	write(fd, &c, 1);
 }
-
-/*
-#include <fcntl.h>
-#include <stdio.h>
-
-int	main(void)
-{
-   int	fd;
-
-   fd = open("test1.txt",O_WRONLY);
-   printf("%d\n",fd);
-   ft_putchar_fd('A',fd);
-   return (0);
-}
-
-*/

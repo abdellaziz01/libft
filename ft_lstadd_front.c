@@ -19,21 +19,3 @@ void	ft_lstadd_front(t_list **lst, t_list *new)
 	new->next = *lst;
 	*lst = new;
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	str[3] = {'a', 'a'};
-	t_list	*new;
-
-	new = ft_lstnew(str);
-	ft_lstadd_front(&new, ft_lstnew((char[]){'b', 'b'}));
-	while (new)
-	{
-		printf("%s\n", (char*)new->content);
-		new = new->next;
-	}
-}
-*/

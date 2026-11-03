@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 12:37:47 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:17:25 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:08:47 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,17 +36,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*#include <stdio.h>
-
-int	main(void)
-{
-	char	*big;
-	char	*little;
-	char	*res;
-
-	big = "the lord of the rings";
-	little = "of the";
-	res = ft_strnstr(big, little, 11);
-	printf("%s", res);
-	return (0);
-}*/

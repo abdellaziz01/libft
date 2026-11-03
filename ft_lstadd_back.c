@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 17:11:41 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:14:42 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 16:17:49 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_lstadd_back(t_list **lst, t_list *new)
 {
+	t_list	*last;
+
 	if (!lst || !new)
 		return ;
 	if (!*lst)
@@ -21,30 +23,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		*lst = new;
 		return ;
 	}
-	ft_lstlast(*lst)->next = new;
-	new->next = NULL;
+	last = ft_lstlast(*lst);
+	last->next = new;
 }
-
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int a = 1;
-	int b = 2;
-	int c = 3;
-	int d = 4;
-	t_list *head = ft_lstnew(&a);
-	t_list *node1 = ft_lstnew(&b);
-	head -> next = node1;
-	node1 = ft_lstnew(&c);
-	head -> next -> next = node1;
-	ft_lstadd_back(&head , ft_lstnew(&d));
-	while(head)
-	{
-		printf("%d\n",*(int *)head -> content);
-		head = head -> next;
-	}
-
-
-}*/

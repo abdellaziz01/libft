@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 10:30:07 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:15:58 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:08:26 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,17 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[len_dst + i] = '\0';
 	return (len_dst + len_src);
 }
-
-/*
- #include <stdio.h>
-
- int	main(void)
- {
-		char *src = "abdellaziz";
-		char dst[10] = "aitouane";
-		int y = ft_strlcat(dst, src, 5);
-
-		printf("%d\n", y);
-		printf("%s", dst);
-		return (0);
- }*/

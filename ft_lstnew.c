@@ -23,18 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new->next = NULL;
 	return (new);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int		a;
-	int		*nb;
-	t_list	*head;
-
-	a = 55;
-	nb = &a;
-	head = ft_lstnew( nb);
-	printf("%d\n",(int *)head -> content);
-}
-*/

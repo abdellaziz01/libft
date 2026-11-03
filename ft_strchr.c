@@ -31,18 +31,3 @@ char	*ft_strchr(const char *s, int c)
 		return ((char *)&(p[i]));
 	return (NULL);
 }
-/*
- #include <stdio.h>
-
- int	main(void)
- {
-		char	*str;
-		int		c;
-		char	*res;
-
-		str = "abdellaziz";
-		c = 105;
-		res = ft_strchr(str, c);
-		printf("%s", res);
-		return (0);
- }*/

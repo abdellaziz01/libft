@@ -28,14 +28,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n / 10, fd);
 	ft_putchar_fd((n % 10 + '0'), fd);
 }
-/*
-#include <fcntl.h>
-
-int	main(void)
-{
-	int	fd;
-
-	fd = open("test.txt",O_WRONLY);
-	ft_putnbr_fd(2147483647 , fd);
-	write(fd,"\n",1);
-} */

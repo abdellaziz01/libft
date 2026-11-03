@@ -26,14 +26,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write(fd, "\n", 1);
 }
-/*
-#include <fcntl.h>
-
-int	main(void)
-{
-	int	fd;
-
-	fd = open("test.txt",O_WRONLY );
-	ft_putendl_fd("the lord of the rings", fd);
-}
-*/

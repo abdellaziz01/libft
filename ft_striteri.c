@@ -23,19 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 		i++;
 	}
 }
-/*
-void	f(unsigned int i , char *c)
-{
-	if(*c >= 'a' && *c <= 'z')
-		*c = *c + i;
-}
-#include <stdio.h>
-
-int	main(void)
-{
-	char	s[20] = "abdellaziz";
-
-	ft_striteri(s,&f);
-	printf("%s",s);
-}
-*/

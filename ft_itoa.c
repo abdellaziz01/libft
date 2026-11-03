@@ -6,7 +6,7 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 17:30:55 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:14:40 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 09:51:43 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,14 +61,3 @@ char	*ft_itoa(int n)
 	}
 	return (p);
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	char	*res;
-
-	res = ft_itoa(0);
-	printf("%s", res);
-}
-*/

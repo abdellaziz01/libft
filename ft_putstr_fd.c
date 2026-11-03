@@ -25,14 +25,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-/*
-#include <fcntl.h>
-
-int	main(void)
-{
-	int	fd;
-
-	fd = open("test.txt",O_WRONLY);
-	ft_putstr_fd("the lord of the rings", fd);
-}
-*/

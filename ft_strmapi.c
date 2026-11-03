@@ -33,22 +33,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	*(res + i) = '\0';
 	return (res);
 }
-/*
-char	f(unsigned int i , char c)
-{
-   if(i % 2 == 0)
-		c = c + 32;
-   return (c);
-}
-#include <stdio.h>
-
-int	main(void)
-{
-   char	*s;
-   char	*res;
-
-   s = "abdellaziz";
-   res = ft_strmapi(s, &f);
-   printf("%s",res);
-}
-*/

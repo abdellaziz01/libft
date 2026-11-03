@@ -6,14 +6,13 @@
 /*   By: abdait-o <abdait-o@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/12 19:26:55 by abdait-o          #+#    #+#             */
-/*   Updated: 2026/10/25 16:17:50 by abdait-o         ###   ########.fr       */
+/*   Updated: 2026/10/29 14:15:38 by abdait-o         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stddef.h>
 # include <stdint.h>
 # include <stdlib.h>
 # include <unistd.h>

@@ -25,19 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-/*
-#include <stdio.h>
-
-int	main(void)
-{
-	int res[10] = {0,1,2,3,4,5,6,7,8,9};
-	ft_bzero(res,5*sizeof(int));
-	int i;
-	i = 0;
-	while(i < 10)
-		{
-			printf("%d",res[i]);
-			i++;
-		}
-
-}*/
